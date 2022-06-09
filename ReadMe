@@ -1,0 +1,89 @@
+1. npm init -yes
+2. npm install -g @vue/cli
+******************************
+npm uninstall vue-cli -g
+npm update -g @vue/cli
+vue --version
+******************************
+3. npm install -g @vue/cli-init
+
+-- npm install -D webpack
+-- npm install -D webpack-cli
+-- npm install -D webpack webpack-cli
+-- npm install --save-dev html-webpack-plugin
+-- npm i -g create-webpack-config
+-- npm webpack-config init
+-- npm install webpack-dev-server rimraf webpack -g
+-- npm install open-browser-webpack-plugin --save-dev
+-- npm install webpack-dashboard --save-dev
+-- npm install postcss-cli autoprefixer --save-dev
+-- npm install -g typescript
+-- npm install ts-loader typescript -save-dev
+-- npm install file-loader --save-dev
+-- npm install sass sass-loader --save-dev
+-- npm install vue
+-- npm install npm
+-- npm install npm-run-all
+-- run powershell（管理员身份）set-ExecutionPolicy RemoteSigned
+-- npm install @types/jest @types/jquery @types/node @types/webpack-env
+-- npm i -D extract-text-webpack-plugin@next
+-- npm install --save-dev mini-css-extract-plugin
+-- npm install uglifyjs-webpack-plugin --save-dev
+-- npm install terser-webpack-plugin --save-dev
+-- npm install vuetify --save-dev
+-- npm install vuetify-loader
+-- npm install eslint --save-dev
+-- npm install eslint-plugin-vue --save-dev
+-- npm install eslint-config-vuetify --save-dev
+-- npm install --save-dev webpack-bundle-analyzer
+-- npm install vuetify vuetify-loader stylus stylus-loader style-loader css-loader --save
+-- npm i -D sass sass-loader fibers deepmerge
+-- npm install awesome-typescript-loader --save-dev
+-- npm i -D nprogress
+-- npm i -save-dev @types/nprogress
+-- npm install @mdi/font
+-- npm i js-cookie
+-- npm install @types/js-cookie
+-- npm i vue-i18n
+-- npm install --save-dev extract-text-webpack-plugin
+-- npm install vue bootstrap-vue bootstrap
+-- npm install axios
+-- npm install less-loader
+-- npm install -g webrtc-adapter
+--Block Ctrl+K+C/Ctrl+K+U
+
+-- //Eslint Check Coding style
+-- npm install -g eslint
+-- npm install eslint --save-dev
+-- npm i @typescript-eslint/eslint-plugin --save-dev
+-- npm i @typescript-eslint/parser --save-dev
+-- npm i @vue/eslint-config-standard @vue/eslint-config-typescript --save-dev
+-- npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
+-- npm install path-to-regexp --save
+-- npm install --save-dev copy-webpack-plugin
+
+-- npm i vue-meta
+-- npm install vue-barcode-reader --save
+'vue/script-indent': 'off',
+'vue/html-indent': 'off',
+
+-- npm install -g @ionic/cli
+-- npm uninstall -g ionic
+-- npm install -g @ionic/cli
+
+-- npm uninstall vue-barcode-reader
+-- npm uninstall vue-barcode-scanner
+-- npm install -g npm-install-peers
+-- npm install copy-webpack-plugin --save-dev
+-- npm install extract-text-webpack-plugin --save-dev
+-- npm uninstall -g html-webpack-plugin -g
+-- npm uninstall webrtc-adapter
+-- npm uninstall vuetify-loader
+-- npm install css-minimizer-webpack-plugin --save-dev
+-- npm install -g npm@8.10.0
+-- npm install -g npm@latest
+-- npm cache clean -f
+-- npm -g uninstall npm
+-- npm install -g win-node-env
+-- npm install url-loader --save-dev
+-- npm uninstall eslint --save-dev

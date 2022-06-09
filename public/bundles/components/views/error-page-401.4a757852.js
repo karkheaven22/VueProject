@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvueapp=self.webpackChunkvueapp||[]).push([["components/views/error-page-401"],{6223:(e,n,s)=>{s.r(n),s.d(n,{default:()=>u});const t={name:"Page401"};const u=(0,s(1900).Z)(t,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("span",[e._v(e._s(e.$t("route.page401")))])}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=error-page-401.4a757852.js.map

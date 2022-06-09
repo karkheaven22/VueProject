@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Roboto,"Helvetica",Arial,'Microsoft Yahei', 'STXihei', sans-serif !important;
+  font-size: 62.5%;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+  background: #2d3a4b;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-spacing:2px;
+  letter-spacing: 2px;
+}
+
+.v-application{
+  font-family: Roboto,"Helvetica",Arial,'Microsoft Yahei', 'STXihei', sans-serif !important;
+  .loginForm{
+      .primary--text{
+          color:white !important;
+          caret-color: white !important;
+      }
+  }
+}
+
+.v-icon{
+  &.v-icon{
+    font-size:18px !important;
+  }
+}

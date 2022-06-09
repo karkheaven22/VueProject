@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvueapp=self.webpackChunkvueapp||[]).push([["components/views/error-page-404"],{9031:(e,n,s)=>{s.r(n),s.d(n,{default:()=>t});const a={name:"Page404"};const t=(0,s(1900).Z)(a,(function(){var e=this,n=e.$createElement;return(e._self._c||n)("span",[e._v("Page404")])}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=error-page-404.ade40cc4.js.map
