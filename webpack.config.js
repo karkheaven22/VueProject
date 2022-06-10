@@ -13,7 +13,7 @@ const devMode = process.env.NODE_ENV !== "production"
 const PATHS = {
   app: path.join(__dirname, 'src'),
   images: path.join(__dirname, 'src/assets/'),
-  build: path.resolve(__dirname, 'public')
+  build: path.resolve(__dirname, 'wwwroot')
 }
 
 const options = {

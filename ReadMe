@@ -82,3 +82,5 @@ vue --version
 
 -- npm install vue
 -- npm install @vue/compat
+
+-- npm install --save @progress/kendo-vue-grid @progress/kendo-data-query @progress/kendo-vue-inputs @progress/kendo-vue-intl @progress/kendo-vue-dropdowns @progress/kendo-vue-dateinputs @progress/kendo-drawing @progress/kendo-vue-data-tools @progress/kendo-vue-animation @progress/kendo-licensing @progress/kendo-vue-buttons @progress/kendo-vue-indicators
