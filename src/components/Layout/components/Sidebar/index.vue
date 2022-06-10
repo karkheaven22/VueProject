@@ -3,11 +3,14 @@
     <v-list-item>
       <v-list-item-content>
         <v-list-item-title class="title">
-          Application
+          <v-img
+            lazy-src="../assets/brand.png"
+            max-height="150"
+            max-width="250"
+            contain
+            src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
+          ></v-img>
         </v-list-item-title>
-        <v-list-item-subtitle>
-          subtext
-        </v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
 
@@ -46,12 +49,65 @@ export default class extends Vue {
   created() {
     this.items = [
       { title: 'dashboard', icon: 'mdi-view-dashboard', type: 'link', path: '/dashboard/index' },
-      { title: 'photos', icon: 'mdi-image', type: 'link', path: '/scan' },
+      { title: 'purchasing.text',
+        icon: 'mdi-cart-variant',
+        items: [
+          { type: 'link', path: '/error/404', title: 'purchasing.quotation' },
+          { type: 'link', path: '/error/401', title: 'purchasing.product' },
+          { type: 'link', path: '/error/404', title: 'purchasing.plan' },
+          { type: 'link', path: '/error/404', title: 'purchasing.order' },
+          { type: 'link', path: '/error/404', title: 'purchasing.invoice' },
+          { type: 'link', path: '/error/404', title: 'purchasing.vendor' }
+        ]
+      },
+      { title: 'production.text',
+        icon: 'mdi-cube-outline',
+        items: [
+          { type: 'link', path: '/error/401', title: 'production.bom' },
+          { type: 'link', path: '/error/404', title: 'production.defect' },
+          { type: 'link', path: '/error/404', title: 'production.process' },
+          { type: 'link', path: '/error/404', title: 'production.job' }
+        ]
+      },
+      { title: 'sales.text',
+        icon: 'mdi-hail',
+        items: [
+          { type: 'link', path: '/error/401', title: 'sales.quotation' },
+          { type: 'link', path: '/error/401', title: 'sales.order' },
+          { type: 'link', path: '/error/404', title: 'sales.customer' }
+        ]
+      },
+      { title: 'inventory.text',
+        icon: 'mdi-package-variant-closed',
+        items: [
+          { type: 'link', path: '/error/401', title: 'inventory.adjustment' },
+          { type: 'link', path: '/error/404', title: 'inventory.item' },
+          { type: 'link', path: '/error/404', title: 'inventory.location' },
+          { type: 'link', path: '/error/404', title: 'inventory.transfer' }
+        ]
+      },
+      { title: 'manufacturing.text',
+        icon: 'mdi-home-city-outline',
+        items: [
+          { type: 'link', path: '/error/401', title: 'inventory.adjustment' },
+          { type: 'link', path: '/error/404', title: 'inventory.location' },
+          { type: 'link', path: '/error/404', title: 'inventory.transfer' }
+        ]
+      },
+      { title: 'settings.text',
+        icon: 'mdi-cogs',
+        items: [
+          { type: 'link', path: '/error/401', title: 'inventory.adjustment' },
+          { type: 'link', path: '/error/404', title: 'inventory.location' },
+          { type: 'link', path: '/error/404', title: 'inventory.transfer' }
+        ]
+      },
       { title: 'errorPages',
         icon: 'mdi-alert-circle-outline',
         items: [
           { type: 'link', path: '/error/401', title: 'page401' },
-          { type: 'link', path: '/error/404', title: 'page404' }
+          { type: 'link', path: '/error/404', title: 'page404' },
+          { type: 'link', path: '/scan', title: 'photos', icon: 'mdi-image' }
         ]
       },
       { title: 'logout', icon: 'mdi-exit-to-app', type: 'button', func: this.logout }

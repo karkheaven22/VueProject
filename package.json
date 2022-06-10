@@ -4,7 +4,7 @@
   "description": "",
   "author": "karkheaven@hotmail.com",
   "scripts": {
-    "serve": "NODE_ENV=development vue-cli-service serve --https false",
+    "serve": "NODE_ENV=production vue-cli-service serve --https false",
     "build": "NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack",
     "buildev": "NODE_ENV=development webpack",
     "dev": "NODE_ENV=development webpack serve --config webpack.config.js",
