@@ -59,20 +59,10 @@ vue --version
 -- npm i @typescript-eslint/parser --save-dev
 -- npm i @vue/eslint-config-standard @vue/eslint-config-typescript --save-dev
 -- npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev
+
 -- npm install path-to-regexp --save
 -- npm install --save-dev copy-webpack-plugin
-
 -- npm i vue-meta
--- npm install vue-barcode-reader --save
-'vue/script-indent': 'off',
-'vue/html-indent': 'off',
-
--- npm install -g @ionic/cli
--- npm uninstall -g ionic
--- npm install -g @ionic/cli
-
--- npm uninstall vue-barcode-reader
--- npm uninstall vue-barcode-scanner
 -- npm install -g npm-install-peers
 -- npm install copy-webpack-plugin --save-dev
 -- npm install extract-text-webpack-plugin --save-dev
@@ -87,3 +77,8 @@ vue --version
 -- npm install -g win-node-env
 -- npm install url-loader --save-dev
 -- npm uninstall eslint --save-dev
+-- npm install --save ag-grid-community
+-- npm install --save ag-grid-vue3
+
+-- npm install vue
+-- npm install @vue/compat

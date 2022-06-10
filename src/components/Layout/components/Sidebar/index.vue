@@ -4,7 +4,7 @@
       <v-list-item-content>
         <v-list-item-title class="title">
           <v-img
-            lazy-src="../assets/brand.png"
+            lazy-src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"
             max-height="150"
             max-width="250"
             contain

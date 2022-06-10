@@ -3,7 +3,6 @@ import store from '@/store'
 import router, { resetRouter } from '@/router'
 import { login, getUserInfo } from '@/api/user'
 import { getToken, setToken, removeToken } from '@/utils/cookies'
-import { Exception } from '@zxing/library'
 
 export interface IUserState {
     token: string

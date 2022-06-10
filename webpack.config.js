@@ -52,7 +52,8 @@ module.exports = {
       { test: /\.js$/, exclude: /(node_modules|bower_components)/, loader: 'babel-loader' },
       { test: /\.css$/i, use: [ 
         devMode ? "style-loader" : MiniCssExtractPlugin.loader,
-        'css-loader'
+        'css-loader',
+        'postcss-loader',
       ]
     },
     {
@@ -65,6 +66,7 @@ module.exports = {
           },
         },
         'css-loader',
+        'postcss-loader',
         'sass-loader'
       ],
       include: [PATHS.app]

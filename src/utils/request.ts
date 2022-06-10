@@ -26,15 +26,15 @@ service.interceptors.request.use(
 )
 
 service.interceptors.response.use(
-    (response) => {
-        const res = response.data
-        return response
-    },
-    (error) => {
-        console.log(error.response.status);
-        console.log(error.message);
-        return Promise.reject(error)
-    }
-  )
+  (response) => {
+      const res = response.data
+      return response
+  },
+  (error) => {
+      console.log(error.response.status);
+      console.log(error.message);
+      return Promise.reject(error)
+  }
+)
 
-  export default service
+export default service
